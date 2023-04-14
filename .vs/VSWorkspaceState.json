@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Developer-Project",
+    "\\Developer-Project\\Developer-Project",
+    "\\Developer-Project\\Developer-Project\\Views"
   ],
+  "SelectedNode": "\\Developer-Project\\Developer-Project\\Views\\ContactsView.xaml",
   "PreviewInSolutionExplorer": false
 }
