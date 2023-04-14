@@ -58,10 +58,17 @@
     <Compile Include="Components\ContactDetails.xaml.cs">
       <DependentUpon>ContactDetails.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Components\ContactList.xaml.cs">
+      <DependentUpon>ContactList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ContactsView.xaml.cs">
       <DependentUpon>ContactsView.xaml</DependentUpon>
     </Compile>
     <Page Include="Components\ContactDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Components\ContactList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

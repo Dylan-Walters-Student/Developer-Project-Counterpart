@@ -3,8 +3,9 @@
     "",
     "\\Developer-Project",
     "\\Developer-Project\\Developer-Project",
+    "\\Developer-Project\\Developer-Project\\Components",
     "\\Developer-Project\\Developer-Project\\Views"
   ],
-  "SelectedNode": "\\Developer-Project\\Developer-Project\\Views\\ContactsView.xaml",
+  "SelectedNode": "\\Developer-Project\\Developer-Project\\Components\\ContactDetails.xaml",
   "PreviewInSolutionExplorer": false
 }
