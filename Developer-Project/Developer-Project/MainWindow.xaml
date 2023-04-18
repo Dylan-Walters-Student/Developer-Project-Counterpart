@@ -3,63 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Developer_Project"
+        xmlns:local="clr-namespace:Developer_Project" xmlns:view="clr-namespace:Developer_Project.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" FontSize="18">
+        Title="Contacts" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20" /> 
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="150" />
-            <ColumnDefinition Width="150" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="20" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-
-        <TextBlock Grid.Column="1" Grid.Row="1" Text="Contact" Background="LightGray"/>
-        <TextBlock Grid.Column="1" Grid.Row="2" Text="Name" Background="LightCoral"/>
-        <TextBox Grid.Column="2" Grid.Row="2" Text="${Name}"/>
-
-        <TextBlock Grid.Column="1" Grid.Row="3" Text="Email" Background="LightCoral"/>
-        <TextBox Grid.Column="2" Grid.Row="3" Text="${Email}"/>
-
-        <TextBlock Grid.Column="1" Grid.Row="4" Text="Phone" Background="LightCoral"/>
-        <TextBox Grid.Column="2" Grid.Row="4" Text="${Phone#}"/>
-
-        <TextBlock Grid.Column="1" Grid.Row="5" Text="Address" Background="LightCoral"/>
-        <TextBox Grid.Column="2" Grid.Row="5" Text="${Address}"/>
-
-
-        <TextBlock Grid.Column="5" Grid.Row="1" Background="LightGray">Add Contact</TextBlock>
-        <TextBlock Grid.Column="5" Grid.Row="2" Text="Name" Background="LightCoral"/>
-        <TextBox Grid.Column="6" Grid.Row="2">Insert Name</TextBox>
-
-        <TextBlock Grid.Column="5" Grid.Row="3" Text="Email" Background="LightCoral"/>
-        <TextBox Grid.Column="6" Grid.Row="3">Insert email</TextBox>
-
-        <TextBlock Grid.Column="5" Grid.Row="4" Text="Phone" Background="LightCoral"/>
-        <TextBox Grid.Column="6" Grid.Row="4">Insert Phone#</TextBox>c:\users\bob\documents\github\developer-project-counterpart\developer-project\developer-project\mainwindow.xaml
-c:\users\bob\documents\github\developer-project-counterpart\developer-project\developer-project\mainwindow.xaml.cs
-
-
-        <TextBlock Grid.Column="5" Grid.Row="5" Text="Address" Background="LightCoral"/>
-        <TextBox Grid.Column="6" Grid.Row="5">Insert Address</TextBox>
-
-        <Button Grid.Column="6" Grid.Row="6">Add Contact</Button>
-        <Button Grid.Column="6" Grid.Row="7">Delete Contact</Button>
+         <view:ContactsView />
     </Grid>
 </Window>

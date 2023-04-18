@@ -6,9 +6,23 @@
              xmlns:local="clr-namespace:Developer_Project.Components"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <ListBox>
-            <ListBoxItem>name</ListBoxItem>
+    <Grid Background="LightSalmon">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Contact List" FontSize="30"/>
+
+        <ListBox Name="ContactsList" Grid.Column="0" Grid.Row="1" FontSize="20" Background="Salmon">
+            <ListBoxItem Content="Kira"/>
+            <ListBoxItem Content="Joshua"/>
+            <ListBoxItem Content="Todd"/>
+            <ListBoxItem Content="${Name Of person}"/>
         </ListBox>
     </Grid>
 </UserControl>
