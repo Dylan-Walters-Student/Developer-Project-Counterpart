@@ -52,8 +52,7 @@
         <TextBox Grid.Column="6" Grid.Row="3">Insert email</TextBox>
 
         <TextBlock Grid.Column="5" Grid.Row="4" Text="Phone" Background="LightCoral"/>
-        <TextBox Grid.Column="6" Grid.Row="4">Insert Phone#</TextBox>c:\users\bob\documents\github\developer-project-counterpart\developer-project\developer-project\mainwindow.xaml
-c:\users\bob\documents\github\developer-project-counterpart\developer-project\developer-project\mainwindow.xaml.cs
+        <TextBox Grid.Column="6" Grid.Row="4">Insert Phone#</TextBox>
 
 
         <TextBlock Grid.Column="5" Grid.Row="5" Text="Address" Background="LightCoral"/>
