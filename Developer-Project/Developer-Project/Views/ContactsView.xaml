@@ -19,6 +19,7 @@
             </Grid.ColumnDefinitions>
 
             <components:ContactDetails Grid.Column="1"/>
+            <components:ContactList Grid.Column="0"/>
 
         </Grid>
     </Grid>

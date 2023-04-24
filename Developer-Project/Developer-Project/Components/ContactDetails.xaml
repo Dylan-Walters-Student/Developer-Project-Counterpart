@@ -50,9 +50,6 @@
 
             <TextBlock Grid.Column="1" Grid.Row="3" Text="Phone:" FontSize="20" FontWeight="Bold"/>
             <TextBox Grid.Column="3" Grid.Row="3" Text="${Phone#}" FontSize="18"/>
-
-            <TextBlock Grid.Column="1" Grid.Row="4" Text="ur moms number:" FontSize="20" FontWeight="Bold"/>
-            <TextBox Grid.Column="3" Grid.Row="4" Text="${585-880-9002#}" FontSize="18"/>
         </Grid>
     </Grid>
 </UserControl>
