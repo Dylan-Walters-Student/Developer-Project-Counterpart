@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\App.xaml
-5705529494
+8-544449032
 
-17-292604629
+20-1295974755
 13-1310406943
-Components\AddContactInfo.xaml;Components\ContactInfo.xaml;Components\ContactList.xaml;MainWindow.xaml;Views\ContactsView.xaml;
+Components\AddContactInfo.xaml;Components\ContactInfo.xaml;Components\ContactList.xaml;MainWindow.xaml;Views\AddContactsView.xaml;Views\ContactInfoView.xaml;Views\ContactsListView.xaml;Views\ContactsView.xaml;
 
 False
 

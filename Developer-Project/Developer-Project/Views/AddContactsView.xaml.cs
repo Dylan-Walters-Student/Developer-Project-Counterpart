@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Developer_Project.Views
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for AddContactsView.xaml
     /// </summary>
-    public partial class ContactsView : UserControl
+    public partial class AddContactsView : UserControl
     {
-        public ContactsView()
+        public AddContactsView()
         {
             InitializeComponent();
         }

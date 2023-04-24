@@ -46,3 +46,9 @@ C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Projec
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactInfo.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\AddContactInfo.baml
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactInfo.baml
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\AddContactsView.g.cs
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\AddContactsView.baml
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactInfoView.g.cs
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactsListView.g.cs
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactInfoView.baml
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactsListView.baml
