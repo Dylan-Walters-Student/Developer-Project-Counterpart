@@ -20,9 +20,9 @@ namespace Developer_Project.Models
             _aquaintanceToContacts.Add(acquaintance);
         }
 
-        public IEnumerable<Acquaintance> GetAcquaintance(string name)
+        public IEnumerable<Acquaintance> GetAcquaintance()
         {
-            return _aquaintanceToContacts.Where(r => r.Name == name);
+            return _aquaintanceToContacts;
         }
     }
 }

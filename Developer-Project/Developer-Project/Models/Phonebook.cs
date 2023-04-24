@@ -18,9 +18,9 @@ namespace Developer_Project.Models
             Name = name;
         }
 
-        public IEnumerable<Acquaintance> GetAcquaintances(string name)
+        public IEnumerable<Acquaintance> GetAcquaintances()
         {
-            return _contact.GetAcquaintance(name);
+            return _contact.GetAcquaintance();
         }
 
         public void MakeContact(Acquaintance acquaintance)

@@ -81,9 +81,6 @@
     <Compile Include="Views\ContactsListView.xaml.cs">
       <DependentUpon>ContactsListView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ContactsView.xaml.cs">
-      <DependentUpon>ContactsView.xaml</DependentUpon>
-    </Compile>
     <Page Include="Components\AddContactInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -117,10 +114,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ContactsListView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\ContactsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

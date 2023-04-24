@@ -14,8 +14,6 @@ C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Projec
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.csproj.CoreCompileInputs.cache
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.exe
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.pdb
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactsView.g.cs
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactsView.baml
 C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\bin\Debug\Developer-Project.exe.config
 C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\bin\Debug\Developer-Project.exe
 C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\bin\Debug\Developer-Project.pdb
