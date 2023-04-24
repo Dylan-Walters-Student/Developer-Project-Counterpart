@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace Developer_Project.ViewModel
 {
@@ -54,5 +55,9 @@ namespace Developer_Project.ViewModel
                 OnPropertyChanged(nameof(PhoneNumber));
             }
         }
+
+        public ICommand SubmitCommand { get; }
+        public ICommand DeleteCommand { get; }
+
     }
 }

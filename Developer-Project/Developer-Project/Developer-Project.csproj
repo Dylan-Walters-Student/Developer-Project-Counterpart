@@ -55,8 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Components\ContactDetails.xaml.cs">
-      <DependentUpon>ContactDetails.xaml</DependentUpon>
+    <Compile Include="Components\AddContactInfo.xaml.cs">
+      <DependentUpon>AddContactInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ContactInfo.xaml.cs">
+      <DependentUpon>ContactInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\ContactList.xaml.cs">
       <DependentUpon>ContactList.xaml</DependentUpon>
@@ -64,14 +67,19 @@
     <Compile Include="Models\Acquaintance.cs" />
     <Compile Include="Models\Contacts.cs" />
     <Compile Include="Models\Phonebook.cs" />
+    <Compile Include="ViewModel\AcquaintanceViewModel.cs" />
     <Compile Include="ViewModel\AddContactViewModel.cs" />
     <Compile Include="ViewModel\ContactListViewModel.cs" />
-    <Compile Include="ViewModel\MainVewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="Views\ContactsView.xaml.cs">
       <DependentUpon>ContactsView.xaml</DependentUpon>
     </Compile>
-    <Page Include="Components\ContactDetails.xaml">
+    <Page Include="Components\AddContactInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Components\ContactInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

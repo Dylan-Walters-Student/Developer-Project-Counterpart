@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Developer_Project.Views.UserControl1"
+﻿<UserControl x:Class="Developer_Project.Views.ContactsView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:components="clr-namespace:Developer_Project.Components"
@@ -18,8 +18,8 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <components:ContactDetails Grid.Column="1"/>
-            <components:ContactList Grid.Column="0"/>
+            <components:AddContactInfo Grid.Column="1"/>
+            <components:ContactInfo Grid.Column="0"/>
 
         </Grid>
     </Grid>

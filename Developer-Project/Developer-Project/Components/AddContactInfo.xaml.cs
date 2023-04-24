@@ -18,9 +18,9 @@ namespace Developer_Project.Components
     /// <summary>
     /// Interaction logic for ContactDetails.xaml
     /// </summary>
-    public partial class ContactDetails : UserControl
+    public partial class AddContactInfo : UserControl
     {
-        public ContactDetails()
+        public AddContactInfo()
         {
             InitializeComponent();
         }

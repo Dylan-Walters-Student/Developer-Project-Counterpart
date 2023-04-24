@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\
 Developer_Project
 none
 false
 DEBUG;TRACE
-C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\App.xaml
-41957023479
+C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\App.xaml
+5705529494
 
-16-1693960650
+181920274049
 13-1310406943
-Components\ContactDetails.xaml;Components\ContactList.xaml;MainWindow.xaml;Views\ContactsView.xaml;
+Components\AddContactInfo.xaml;Components\ContactInfo.xaml;Components\ContactList.xaml;MainWindow.xaml;Views\ContactsView.xaml;
 
-False
+True
 

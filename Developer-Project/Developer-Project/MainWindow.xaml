@@ -3,11 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Developer_Project" xmlns:views="clr-namespace:Developer_Project.Views"
+        xmlns:local="clr-namespace:Developer_Project" xmlns:views="clr-namespace:Developer_Project.Views" xmlns:viewmodel="clr-namespace:Developer_Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:MainViewModel}"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" FontSize="18">
     <Grid>
-        <views:UserControl1/>
-        
+        <views:ContactsView DataContext="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>

@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Developer_Project.Views
+namespace Developer_Project.Components
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for ContactList.xaml
     /// </summary>
-    public partial class ContactsView : UserControl
+    public partial class ContactInfo : UserControl
     {
-        public ContactsView()
+        public ContactInfo()
         {
             InitializeComponent();
         }
