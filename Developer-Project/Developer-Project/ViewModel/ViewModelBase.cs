@@ -11,7 +11,7 @@ namespace Developer_Project.ViewModel
     internal abstract class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        protected virtual void OnPropertyChnaged([CallerMemberName] string callerName = null)
+        protected virtual void OnPropertyChanged([CallerMemberName] string callerName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(callerName));
         }
@@ -21,7 +21,7 @@ namespace Developer_Project.ViewModel
             if(EqualityComparer<T>.Default.Equals(storage, value))
                     return false;
             storage = value;
-            this.OnPropertyChnaged(callerName);
+            this.OnPropertyChanged(callerName);
             return true;
         }
     }

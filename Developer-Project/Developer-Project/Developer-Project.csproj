@@ -64,6 +64,9 @@
     <Compile Include="Models\Acquaintance.cs" />
     <Compile Include="Models\Contacts.cs" />
     <Compile Include="Models\Phonebook.cs" />
+    <Compile Include="ViewModel\AddContactViewModel.cs" />
+    <Compile Include="ViewModel\ContactListViewModel.cs" />
+    <Compile Include="ViewModel\MainVewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="Views\ContactsView.xaml.cs">
       <DependentUpon>ContactsView.xaml</DependentUpon>
