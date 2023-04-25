@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Developer_Project.Models
 {
-    internal class Contacts
+    public class Contacts
     {
         private readonly List<Acquaintance> _aquaintanceToContacts;
 

@@ -18,7 +18,7 @@
                     <GridViewColumn Header="Acquaintance">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Button Content="{Binding Name}" Command="{Binding }"/>
+                                <Button Content="{Binding Name}"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>

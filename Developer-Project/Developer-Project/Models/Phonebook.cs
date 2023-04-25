@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Developer_Project.Models
 {
-    internal class Phonebook
+    public class Phonebook
     {
         private readonly Contacts _contact;
 

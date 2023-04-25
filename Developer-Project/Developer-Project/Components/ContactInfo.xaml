@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Developer_Project.Components" xmlns:viewmodel="clr-namespace:Developer_Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:AddContactViewModel}"
+             xmlns:local="clr-namespace:Developer_Project.Components" xmlns:viewmodel="clr-namespace:Developer_Project.ViewModel" 
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" FontSize="20">
     <Grid Background="white">
@@ -37,7 +37,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Name: "/>
-            <TextBlock Text="{Binding Name}"/>
+            <TextBlock Grid.Column="1" Text="{Binding Name}"/>
         </Grid>
 
         <Grid Grid.Row="3">
@@ -47,7 +47,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Email: "/>
-            <TextBlock Text="{Binding Email}"/>
+            <TextBlock Grid.Column="1" Text="{Binding Email}"/>
         </Grid>
 
         <Grid Grid.Row="4">
@@ -57,7 +57,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Address: "/>
-            <TextBlock Text="{Binding Address}"/>
+            <TextBlock Grid.Column="1" Text="{Binding Address}"/>
         </Grid>
 
         <Grid Grid.Row="5">
@@ -67,10 +67,9 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Phone Number: "/>
-            <TextBlock Text="{Binding PhoneNumber}"/>
+            <TextBlock Grid.Column="1" Text="{Binding PhoneNumber}"/>
         </Grid>
 
-        <Button Grid.Column="6" Grid.Row="8" Command="{Binding SubmitCommand}" Content="Add Contact" Background="LightGreen" Margin="50 0 50 5"/>
         <Button Grid.Column="6" Grid.Row="10" Command="{Binding DeleteCommand}" Content="Delete Contact" Background="IndianRed" Margin="50 0 50 5"/>
     </Grid>
 </UserControl>

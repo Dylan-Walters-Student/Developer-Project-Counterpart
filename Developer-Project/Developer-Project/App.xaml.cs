@@ -15,11 +15,16 @@ namespace Developer_Project
     /// </summary>
     public partial class App : Application
     {
+        private readonly Phonebook _phonebook;
+        public App()
+        {
+            _phonebook = new Phonebook("User1");
+        }
         protected override void OnStartup(StartupEventArgs e)
         {
             MainWindow = new MainWindow()
             {
-                DataContext = new MainViewModel()
+                DataContext = new MainViewModel(_phonebook)
             };
             MainWindow.Show();
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Developer_Project.ViewModel
 {
-    internal class AcquaintanceViewModel
+    public class AcquaintanceViewModel : ViewModelBase
     {
         private readonly Acquaintance _acquaintance;
         public string Name => _acquaintance.Name;

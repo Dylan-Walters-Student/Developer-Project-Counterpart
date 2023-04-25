@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Developer_Project.Commands;
+using Developer_Project.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +9,7 @@ using System.Windows.Input;
 
 namespace Developer_Project.ViewModel
 {
-    internal class AddContactViewModel : ViewModelBase
+    public class AddContactViewModel : ViewModelBase
     {
         private string _name;
         public string Name { 
@@ -39,7 +41,7 @@ namespace Developer_Project.ViewModel
             { return _address; }
             set
             {
-                _email = value;
+                _address = value;
                 OnPropertyChanged(nameof(Address));
             }
         }
@@ -57,7 +59,12 @@ namespace Developer_Project.ViewModel
         }
 
         public ICommand SubmitCommand { get; }
+        public ICommand CancelCommand { get; }
         public ICommand DeleteCommand { get; }
 
+        public AddContactViewModel(Phonebook phonebook)
+        {
+            SubmitCommand = new AddContactCommand(this, phonebook);
+        }
     }
 }

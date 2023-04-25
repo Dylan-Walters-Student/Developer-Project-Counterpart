@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" FontSize="18">
     <Grid>
-        <views:AddContactsView DataContext="{Binding CurrentViewModel}"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <views:AddContactsView Grid.Column="0" DataContext="{Binding CurrentViewModel}"/>
+        <views:ContactsListView Grid.Column="1" DataContext="{Binding CurrentViewModel}"/>
+        <views:ContactInfoView Grid.Column="2" DataContext="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>
