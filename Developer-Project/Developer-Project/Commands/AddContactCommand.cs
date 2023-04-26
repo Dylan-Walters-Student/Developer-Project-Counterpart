@@ -20,7 +20,7 @@ namespace Developer_Project.Commands
 
         public override void Execute(object parameter)
         {
-            Acquaintance acquaintance = new Acquaintance(_addContactViewModel.Name, _addContactViewModel.Email, _addContactViewModel.Address, _addContactViewModel.PhoneNumber);
+            Acquaintance acquaintance = new Acquaintance("", _addContactViewModel.Email, _addContactViewModel.Address, _addContactViewModel.PhoneNumber);
             _phonebook.MakeContact(acquaintance);
         }
     }

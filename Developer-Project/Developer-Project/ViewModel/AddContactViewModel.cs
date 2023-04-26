@@ -20,7 +20,7 @@ namespace Developer_Project.ViewModel
                 _name = value;
                 OnPropertyChanged(nameof(Name));
             }
-        }
+        } 
 
         private string _email;
         public string Email

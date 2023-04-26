@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Developer_Project.Components" xmlns:viewmodel="clr-namespace:Developer_Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:ContactListViewModel}"
+             xmlns:local="clr-namespace:Developer_Project.Components" xmlns:viewmodel="clr-namespace:Developer_Project.ViewModel" 
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" FontSize="15">
     <Grid>
         <ListView Grid.Column="0" ItemsSource="{Binding Acquaintances}">
+            <ListViewItem/>
+            <ListViewItem/>
+            <ListViewItem/>
+            <ListViewItem/>
+            
+            
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
@@ -18,13 +24,25 @@
                     <GridViewColumn Header="Acquaintance">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Button Content="{Binding Name}"/>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <TextBlock Grid.Column="0" Text="Contact"/>
+                                    <Button Grid.Column="1" Content="Edit"/>
+                                </Grid>
+
+                                
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
                 </GridView>
-            </ListView.View>
-            
+            </ListView.View> 
         </ListView>
-    </Grid>
+            
+        
+    </Grid> 
 </UserControl>
