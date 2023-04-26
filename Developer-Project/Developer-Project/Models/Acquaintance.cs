@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Developer_Project.Models
 {
-    internal class Acquaintance
+    public class Acquaintance
     {
         public string Name { get; }
         public string Email { get; }

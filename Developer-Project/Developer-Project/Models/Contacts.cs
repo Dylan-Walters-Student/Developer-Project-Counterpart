@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Developer_Project.Models
 {
-    internal class Contacts
+    public class Contacts
     {
         private readonly List<Acquaintance> _aquaintanceToContacts;
 
@@ -20,9 +20,9 @@ namespace Developer_Project.Models
             _aquaintanceToContacts.Add(acquaintance);
         }
 
-        public IEnumerable<Acquaintance> GetAcquaintance(string name)
+        public IEnumerable<Acquaintance> GetAcquaintance()
         {
-            return _aquaintanceToContacts.Where(r => r.Name == name);
+            return _aquaintanceToContacts;
         }
     }
 }

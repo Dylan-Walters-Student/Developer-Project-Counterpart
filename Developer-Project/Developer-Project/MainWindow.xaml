@@ -3,10 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Developer_Project" xmlns:view="clr-namespace:Developer_Project.Views"
+        xmlns:local="clr-namespace:Developer_Project" xmlns:views="clr-namespace:Developer_Project.Views" xmlns:viewmodel="clr-namespace:Developer_Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:MainViewModel}"
         mc:Ignorable="d"
         Title="Contacts" Height="450" Width="800">
     <Grid>
-         <view:ContactsView />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <views:AddContactsView Grid.Column="0" DataContext="{Binding CurrentViewModel}"/>
+        <views:ContactsListView Grid.Column="1" DataContext="{Binding CurrentViewModel}"/>
+        <views:ContactInfoView Grid.Column="2" DataContext="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>

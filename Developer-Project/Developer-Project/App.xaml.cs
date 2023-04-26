@@ -1,4 +1,5 @@
 ﻿using Developer_Project.Models;
+using Developer_Project.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -14,16 +15,18 @@ namespace Developer_Project
     /// </summary>
     public partial class App : Application
     {
+        private readonly Phonebook _phonebook;
+        public App()
+        {
+            _phonebook = new Phonebook("User1");
+        }
         protected override void OnStartup(StartupEventArgs e)
         {
-            Phonebook contactslist = new Phonebook("Clayton");
-
-            contactslist.MakeContact(new Acquaintance("Dylan", "ddwalters987@gmail.com", "6162017277", "8491 South Maple Ct"));
-
-            contactslist.MakeContact(new Acquaintance("kira", "kirasEmail@gmail.com", "616-something-something", "next to vitales"));
-
-            IEnumerable<Acquaintance> contact = contactslist.GetAcquaintances("Dylan");
-            Console.WriteLine(contact);
+            MainWindow = new MainWindow()
+            {
+                DataContext = new MainViewModel(_phonebook)
+            };
+            MainWindow.Show();
 
             base.OnStartup(e);
         }

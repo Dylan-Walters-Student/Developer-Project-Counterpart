@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Developer_Project.Models
 {
-    internal class Phonebook
+    public class Phonebook
     {
         private readonly Contacts _contact;
 
@@ -18,9 +18,9 @@ namespace Developer_Project.Models
             Name = name;
         }
 
-        public IEnumerable<Acquaintance> GetAcquaintances(string name)
+        public IEnumerable<Acquaintance> GetAcquaintances()
         {
-            return _contact.GetAcquaintance(name);
+            return _contact.GetAcquaintance();
         }
 
         public void MakeContact(Acquaintance acquaintance)
