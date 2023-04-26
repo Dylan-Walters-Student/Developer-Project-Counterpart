@@ -13,7 +13,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         
-        <views:AddContactsView Grid.Column="0" DataContext="{Binding CurrentViewModel}"/>
+        <views:AddContactsView Grid.Column="0" DataContext="{Binding CurrentViewModel}" Loaded="AddContactsView_Loaded"/>
         <views:ContactsListView Grid.Column="1" DataContext="{Binding CurrentViewModel}"/>
         <views:ContactInfoView Grid.Column="2" DataContext="{Binding CurrentViewModel}"/>
     </Grid>

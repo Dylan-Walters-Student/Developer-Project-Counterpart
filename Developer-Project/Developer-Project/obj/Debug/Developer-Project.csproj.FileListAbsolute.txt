@@ -1,9 +1,7 @@
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.csproj.AssemblyReference.cache
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.csproj.SuggestedBindingRedirects.cache
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactDetails.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactList.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\MainWindow.g.cs
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactsView.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project_MarkupCompile.cache
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project_MarkupCompile.lref
@@ -11,10 +9,8 @@ C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Projec
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\bin\Debug\Developer-Project.exe
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\bin\Debug\Developer-Project.pdb
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\App.g.cs
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactDetails.baml
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactList.baml
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\MainWindow.baml
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Views\ContactsView.baml
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.g.resources
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer_Project.Properties.Resources.resources
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.csproj.GenerateResource.cache
@@ -44,9 +40,6 @@ C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\De
 C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.csproj.CoreCompileInputs.cache
 C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.exe
 C:\Users\bob\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Developer-Project.pdb
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactList.g.cs
-C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactList.baml
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\AddContactInfo.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\ContactInfo.g.cs
 C:\Users\dywa55d\Documents\GitHub\Developer-Project-Counterpart\Developer-Project\Developer-Project\obj\Debug\Components\AddContactInfo.baml

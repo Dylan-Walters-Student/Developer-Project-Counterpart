@@ -20,7 +20,6 @@ namespace Developer_Project.Views
     /// </summary>
     public partial class ContactsView : UserControl
     {
-        public ContactsView()
     }
     /// Interaction logic for AddContactsView.xaml
     /// </summary>

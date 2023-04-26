@@ -24,5 +24,10 @@ namespace Developer_Project
         {
             InitializeComponent();
         }
+
+        private void AddContactsView_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
